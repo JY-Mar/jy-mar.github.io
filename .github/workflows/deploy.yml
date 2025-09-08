@@ -43,4 +43,4 @@ jobs:
           # 部署目录为 VuePress 的默认输出目录
           publish_dir: docs/.vuepress/dist
           # 部署到 gh-pages 分支
-          publish_branch: gh-pages
+          publish_branch: main
