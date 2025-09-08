@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-dfef4b32","path":"/uniapp/H5.html","title":"移动端H5","lang":"zh-CN","frontmatter":{},"headers":[{"level":1,"title":"移动端H5","slug":"移动端h5","link":"#移动端h5","children":[]}],"git":{"updatedTime":1677208333000,"contributors":[{"name":"JY-Ma","email":"mjyjy@icloud.com","commits":1}]},"filePathRelative":"uniapp/H5.md"}');export{e as data};
