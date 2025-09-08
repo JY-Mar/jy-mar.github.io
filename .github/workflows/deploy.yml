@@ -1,18 +1,19 @@
-name: github deploy actions
+name: Deploy VuePress to GitHub Pages
 
 on:
   # 每当 push 到 main 分支时触发部署
   push:
-    branches: [main]
+    branches:
+      - main
   # 手动触发部署
   workflow_dispatch:
 
 jobs:
-  docs:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
@@ -25,7 +26,7 @@ jobs:
           # 缓存 npm 依赖
           cache: npm
           
-      - name: Install Dependent Node Pkgs
+      - name: Install dependencies
         run: npm install
 
       # 运行构建脚本
@@ -35,13 +36,14 @@ jobs:
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
         with:
           # 部署到你的目标仓库，这里就是你的仓库名
           repo: JY-Mar/JY-Mar.github.io
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
           # 当前仓库的密钥
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          # 部署目录为 VuePress 的默认输出目录
+          publish_dir: docs/.vuepress/dist
+          # 部署到 gh-pages 分支
+          publish_branch: gh-pages
+          
