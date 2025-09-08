@@ -44,4 +44,3 @@ jobs:
           publish_dir: docs/.vuepress/dist
           # 部署到 gh-pages 分支
           publish_branch: gh-pages
-          
