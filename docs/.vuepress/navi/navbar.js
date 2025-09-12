@@ -1,15 +1,14 @@
 /*
- * @Author       : JY Ma
- * @Date         : 2023-02-08 11:19:06
- * @LastEditTime : 2023-02-08 11:19:10
- * @LastEditors  : majy majy@joywise.net
- * @FilePath     : /scat-blog/docs/.vuepress/navi/navbar.js
+ * @Author       : Scientificat 51430248+JY-Mar@users.noreply.github.com
+ * @Date         : 2025-09-08 08:27:51
+ * @LastEditTime : 2025-09-12 06:19:53
+ * @LastEditors  : Scientificat 51430248+JY-Mar@users.noreply.github.com
  * @Description  : 顶部导航栏配置
  */
 
 module.exports = [
   {
     text: 'GitHub',
-    link: 'https://github.com/JWhy-Ma/JWhy-Ma.github.io'
-  },
+    link: 'https://github.com/JY-Mar/JY-Mar.github.io'
+  }
 ]
