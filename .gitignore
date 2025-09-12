@@ -1,8 +1,8 @@
 # Node.js 依赖
 node_modules/
 
-# VuePress 构建输出目录
-docs/.vuepress/dist/
+# VitePress 构建输出目录
+docs/.vitepress/dist/
 
 # 本地调试缓存
 .temp/

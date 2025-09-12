@@ -1,1 +1,0 @@
-import{_ as t,p as a,q as c,R as e,t as r}from"./framework-96b046e1.js";const s={},o=e("h1",{id:"移动端h5",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#移动端h5","aria-hidden":"true"},"#"),r(" 移动端H5")],-1),n=[o];function _(d,h){return a(),c("div",null,n)}const l=t(s,[["render",_],["__file","H5.html.vue"]]);export{l as default};

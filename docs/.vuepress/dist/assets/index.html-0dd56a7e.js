@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-05a7ada1","path":"/vue/vue2/","title":"技术点","lang":"zh-CN","frontmatter":{},"headers":[{"level":1,"title":"技术点","slug":"技术点","link":"#技术点","children":[]}],"git":{"updatedTime":1677208333000,"contributors":[{"name":"JY-Ma","email":"mjyjy@icloud.com","commits":1}]},"filePathRelative":"vue/vue2/README.md"}');export{e as data};
