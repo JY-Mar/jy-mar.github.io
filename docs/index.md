@@ -3,23 +3,27 @@
 layout: home
 
 hero:
-  name: "Scat Blog"
-  text: "My Blog"
-  tagline: My great project tagline
+  name: "Scat Studio"
+  text: "Keeping track of quirky or memorable things during development."
+  tagline: Welcome
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Start ►
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Vue
+      link: /api-examples
+    - theme: alt
+      text: UniApp
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: About
+    details: Lazy guy.
+  - title: Behave
+    details: Easy-going.
+  - title: Hobby
+    details: Game.
+
 ---
 
